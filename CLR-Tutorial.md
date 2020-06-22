@@ -8,3 +8,9 @@
 **The following figure shows a more detailed look at the workingt of the CLR:**
 
 <img alt="CLR Diagram" class="" data-src="/UploadFile/9582c9/what-is-common-language-runtime-in-C-Sharp/Images/CLR.jpg" src="https://www.c-sharpcorner.com/UploadFile/9582c9/what-is-common-language-runtime-in-C-Sharp/Images/CLR.jpg">
+
+### When a code is executed for the first time?
+- The CIL(COMMON INTERMEDIATE LANGUAGE) code is converted to a code native to the operation system.
+- This is done at runtime by Just-In-Time(JIT) compiler present in the CLR.
+- The CLR converts the CIL code to the machine language code.
+- Once this is done, the code can be directly executed by the CPU(Central Processing Unit).
