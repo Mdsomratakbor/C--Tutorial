@@ -8,3 +8,7 @@
  `The following are the types of inheritance in C#.`
  
 <img alt="Types of Inheritance" class="" data-src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/Types%20of%20Inheritence.jpg" src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/Types%20of%20Inheritence.jpg">
+
+`The inheritance concept is based on a base class and derived class. Let us see the definition of a base and derived class.`
+- Base class - is the class from which features are to be inherited into another class.
+- Derived class - it is the class in which the base class features are inherited.
