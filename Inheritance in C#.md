@@ -24,3 +24,8 @@
 `This is the type of inheritance in which there are multiple classes derived from one base class. This type of inheritance is used when there is a requirement of one class feature that is needed in multiple classes.`
 
 <img alt="Hierarchical inheritance" class="" data-src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/hierachial.jpg" src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/hierachial.jpg">
+
+### Multilevel inheritance
+`When one class is derived from another derived class then this type of inheritance is called multilevel inheritance.`
+
+<img alt="Multilevel inheritance" class="" data-src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/Multilvel.jpg" src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/Multilvel.jpg">
