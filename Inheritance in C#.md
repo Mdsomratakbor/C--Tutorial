@@ -32,6 +32,7 @@
 
 ### Multiple inheritance using Interfaces
 
-`C# does not support multiple inheritances of classes. To overcome this problem we can use interfaces, we will see more about interfaces in my next article in detail.`
+`C# does not support multiple inheritances of classes. To overcome this problem we can use interfaces`
+
 <img alt="Multiple inheritance using Interfaces" class="" data-src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/Multiple.jpg" src="https://www.c-sharpcorner.com/UploadFile/0c1bb2/types-of-inheritance-in-C-Sharp/Images/Multiple.jpg">
 
