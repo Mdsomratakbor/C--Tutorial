@@ -18,3 +18,6 @@
  | The constructor must not have a return type. | The method has or not have a return type. |
  | A constructor must be the same as the class name | Method name may or may not be same as the class name |
  | A constructor is invoked implicity. | A method is invoked explicity. |
+
+### Default Construcor
+`A constructor without any parameters is called a default constructor. If we do not create constructor the class will automatically call default constructor when an object is created.`
