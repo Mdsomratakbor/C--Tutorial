@@ -37,3 +37,15 @@
 </tr>
 </tbody>
 </table>
+
+<div class="codeBlock">
+<p><span style="color: blue;">class</span><span> <span style="color: #2b91af;">User</span></span></p>
+<p><span>{</span></p>
+<p><span>&nbsp;&nbsp;&nbsp; <span style="color: blue;">private</span> <span style="color: blue;">string</span> name;</span></p>
+<p><span>&nbsp;&nbsp;&nbsp; <span style="color: blue;">public</span> <span style="color: blue;">string</span> Name</span></p>
+<p><span>&nbsp;&nbsp;&nbsp; {</span></p>
+<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: blue;">get</span> { <span style="color: blue;">return</span> name; }</span></p>
+<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: blue;">set</span> { name = <span style="color: blue;">value</span>; }</span></p>
+<p><span>&nbsp;&nbsp;&nbsp; }</span></p>
+<p><span>}</span></p>
+</div>
