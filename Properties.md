@@ -10,3 +10,9 @@
 
 ### What is the difference between field and property in C#?
 `A field is a variable that is declared directly in a class or struct. ... A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessors.`
+
+### What is Readonly Property in C#?
+`We can also create a read only property. Read only means that we can access the value of a property but we can't assign a value to it. When a property does not have a set accessor then it is a read only property.`
+
+### What advantages of Property in C#?
+`Answer: The advantages of using properties are: Before allowing a change in data, the properties can validate the data. Properties can evidently make visible of data on a class from where that data is actually retrieved such as a database.`
