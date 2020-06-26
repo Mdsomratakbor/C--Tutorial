@@ -16,3 +16,24 @@
 
 ### What advantages of Property in C#?
 `Answer: The advantages of using properties are: Before allowing a change in data, the properties can validate the data. Properties can evidently make visible of data on a class from where that data is actually retrieved such as a database.`
+
+### In c#, the properties are categorized as three types, those are.
+<table class="table table-striped table-bordered">
+<thead>
+<tr class="info"><th>Type</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Read-Write</td>
+<td>A property which contains a both <code>get</code> and <code>set</code> accessors, then we will call it as read-write property.</td>
+</tr>
+<tr>
+<td>Read-Only</td>
+<td>A property which contains only <code>get</code> accessor, then we will call it as a read-only property.</td>
+</tr>
+<tr>
+<td>Write-Only</td>
+<td>A property which contains only <code>set</code> accessor, then we will call it as write-only property.</td>
+</tr>
+</tbody>
+</table>
