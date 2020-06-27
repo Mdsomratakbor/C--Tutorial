@@ -49,3 +49,8 @@ In the same way, a function will have already some work to do and if we assign d
 
 ### When should we overload methods?
 `To execute the same logic with different types of argument we should overload methods. For example to add two integers, two floats and two strings we should define three methods with the same name as shown in the below application`
+
+### What are the advantages of using overloading OR what are the disadvantages if we define methods with a different name?
+`If we overload the method, the user of our application gets comfort feeling in using the method with the impression that he/she calling one method by passing different types of values.`
+
+`The best example for us is the “WriteLine()” method. It is an overloaded method, not a single method of taking different types of values.`
