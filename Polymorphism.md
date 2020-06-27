@@ -59,3 +59,34 @@ In the same way, a function will have already some work to do and if we assign d
 `If two methods have the same method name those methods are considered as overloaded methods.`
 
 `Then the rule we should check is both methods must have different parameter types/list/order. But there is no rule on return type, non-accessibility modifier and accessibility modifier means overloading methods can have its own return type, non-accessibility modifier, and accessibility modifier because overloading methods are different methods`
+
+### Can we overload methods in the same class?
+`Yes, it is possible no CE, no RE. Methods can be overloaded in the same or in super and subclasses because overloaded methods are different methods.`
+
+`But we can’t override the method in the same class it leads to CE: “method is already defined” because overriding methods are the same methods with a different implementation.`
+
+### What is the function/method overriding?
+
+`Redefining the superclass non-static method in the subclass with the same prototype is called method overriding. The overriding method is always executed from the current objects class.`
+
+`In object-oriented programming method overriding is a language feature that allows a subclass to provide a specific implementation of a method that is already provided by one of its superclasses.`
+
+`The implementation of the subclass overrides (replaces) the implementation of superclass methods. So the overridden method is always executed from the object whose object is stored in the reference variable. The superclass method is called the overridden method and the sub-class method is called the overriding method.`
+
+### When must a method be overridden?
+`If superclass method logic is not fulfilling sub-class business requirements, the subclass should override that method with required business logic. Usually, superclass methods are defined with generic logic which is common for all sub-classes.`
+
+### How can we override a parent class method under child class?
+`If we want to override a parent class method in its child class, first the method in the parent class must be declared as virtual by using the keyword virtual then only the child classes get the permission for overriding that method. Declaring the method as virtual is marking the method is overridable.`
+
+`If the child class wants to override the parent class virtual method then the child class can do it with the help of the override modifier. But overriding the method under child class is not mandatory for the child classes. The Syntax is given below:`
+
+`Class1:`
+`Public virtual void show() //virtual function (overridable)`
+
+`Class2: Class1`
+`Public override void show() //overriding`
+
+`Even if the method declared as virtual the child class may or may not override the method`
+
+`In overriding, the parent class defines a method as virtual and gives it to child class to consume that method. So the child class now consume the method as it is or override that method as per the requirement of the child class. So overriding parent class virtual method under a child class is only optional.`
