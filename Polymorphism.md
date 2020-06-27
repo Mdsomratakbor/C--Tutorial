@@ -54,3 +54,8 @@ In the same way, a function will have already some work to do and if we assign d
 `If we overload the method, the user of our application gets comfort feeling in using the method with the impression that he/she calling one method by passing different types of values.`
 
 `The best example for us is the “WriteLine()” method. It is an overloaded method, not a single method of taking different types of values.`
+
+### When is a method considered as an overloaded method?
+`If two methods have the same method name those methods are considered as overloaded methods.`
+
+`Then the rule we should check is both methods must have different parameter types/list/order. But there is no rule on return type, non-accessibility modifier and accessibility modifier means overloading methods can have its own return type, non-accessibility modifier, and accessibility modifier because overloading methods are different methods`
