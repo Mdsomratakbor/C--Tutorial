@@ -39,3 +39,10 @@ It is also called as static polymorphism or early binding. Static polymorphism i
 ### What is Run-time Polymorphism in C#?
 `In the case of runtime polymorphism for a given method call, we can recognize which method has to be executed exactly at runtime but not in compilation time because in case of overriding and hiding we have multiple methods with the same signature. So which method to be given preference and executed that is identified at runtime and binds the method call with its suitable method.
 It is also called as dynamic polymorphism or late binding. Dynamic polymorphism is achieved by using function overriding.`
+
+### What is Method Overloading in C#?
+`Function overloading and method overloading terms are used interchangeably. Method overloading allows a class to have multiple methods with the same name but with a different signature. So in C# functions can be overloaded based on the number, type (int, float etc) and kind (Value, Ref or Out) of parameters.
+The signature of a method consists of the name of the method and the type, kind (value, reference, or output) and the number of its formal parameters. The signature of a method does not include the return type and the params modifiers. So it is not possible to overload a method just based on the return type and params modifier.
+A function overloading can be compared with person overloading. If a person has already some work to do and if we are assigning additional work to the person then the person will be overloaded.
+
+In the same way, a function will have already some work to do and if we assign different work to the same function, then we say the function is overloaded. It is an approach of defining multiple methods with the same method name by changing the signature. Changing the signature means we can either change the no of parameters being passed to the method or type of parameters being passed to the method or order of parameters being passed to the function`
