@@ -31,4 +31,9 @@
 - Operator Overloading.
 - Constructor Overloading.
 
+### What is compile-time Polymorphism in C#?
+`In the case of compile-time polymorphism, the object of class recognizes which method to be executed for a particular method call at the time of program compilation and binds the method call with method definition.
+This happens in case of overloading because in case of overloading each method will have a different signature and basing on the method call we can easily recognize the method which matches the method signature.
+It is also called as static polymorphism or early binding. Static polymorphism is achieved by using function overloading and operator overloading`
+
 
