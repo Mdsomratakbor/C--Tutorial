@@ -10,6 +10,8 @@
 ### What types of Pholymorphism available in c#?
 
 **There are two type of pholymorphism :**
-- 1. Static polymorphism (Compile time polymorphism)
-- 2. Daynamic polymorphism (Run time polymorphism)
+- Static polymorphism (Compile time polymorphism)
+- Daynamic polymorphism (Run time polymorphism)
+
+<img alt="polymorphism" class="" data-src="/UploadFile/ff2f08/understanding-polymorphism-in-C-Sharp/Images/ploymorphism.jpg" src="https://www.c-sharpcorner.com/UploadFile/ff2f08/understanding-polymorphism-in-C-Sharp/Images/ploymorphism.jpg">
 
