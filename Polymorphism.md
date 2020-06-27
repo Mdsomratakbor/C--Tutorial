@@ -90,3 +90,7 @@ In the same way, a function will have already some work to do and if we assign d
 `Even if the method declared as virtual the child class may or may not override the method`
 
 `In overriding, the parent class defines a method as virtual and gives it to child class to consume that method. So the child class now consume the method as it is or override that method as per the requirement of the child class. So overriding parent class virtual method under a child class is only optional.`
+
+### What is the difference between function overloading and function overriding?
+
+<img class="alignnone wp-image-4725" title="Polymorphism Interview Questions and Answers in C#" src="https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C.png" alt="Polymorphism Interview Questions and Answers in C#" width="774" height="467" srcset="https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C.png 1058w, https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C-300x181.png 300w, https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C-768x463.png 768w, https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C-1024x617.png 1024w" sizes="(max-width: 774px) 100vw, 774px">
