@@ -46,3 +46,6 @@ The signature of a method consists of the name of the method and the type, kind 
 A function overloading can be compared with person overloading. If a person has already some work to do and if we are assigning additional work to the person then the person will be overloaded.
 
 In the same way, a function will have already some work to do and if we assign different work to the same function, then we say the function is overloaded. It is an approach of defining multiple methods with the same method name by changing the signature. Changing the signature means we can either change the no of parameters being passed to the method or type of parameters being passed to the method or order of parameters being passed to the function`
+
+### When should we overload methods?
+`To execute the same logic with different types of argument we should overload methods. For example to add two integers, two floats and two strings we should define three methods with the same name as shown in the below application`
