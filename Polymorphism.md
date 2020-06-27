@@ -21,3 +21,8 @@
 
 <img alt="polymorphism" class="" data-src="/UploadFile/ff2f08/understanding-polymorphism-in-C-Sharp/Images/ploymorphism.jpg" src="https://www.c-sharpcorner.com/UploadFile/ff2f08/understanding-polymorphism-in-C-Sharp/Images/ploymorphism.jpg">
 
+### How many approach in implemention Pholymorphism in a application ?
+- Overloading
+- Overriding
+- Hiding
+
