@@ -26,3 +26,9 @@
 - Overriding
 - Hiding
 
+**Overloading is  three types**
+- Method Overloading.
+- Operator Overloading.
+- Constructor Overloading.
+
+
