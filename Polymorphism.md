@@ -94,3 +94,20 @@ In the same way, a function will have already some work to do and if we assign d
 ### What is the difference between function overloading and function overriding?
 
 <img class="alignnone wp-image-4725" title="Polymorphism Interview Questions and Answers in C#" src="https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C.png" alt="Polymorphism Interview Questions and Answers in C#" width="774" height="467" srcset="https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C.png 1058w, https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C-300x181.png 300w, https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C-768x463.png 768w, https://dotnettutorials.net/wp-content/uploads/2018/08/Polymorphism-Interview-Questions-and-Answers-in-C-1024x617.png 1024w" sizes="(max-width: 774px) 100vw, 774px">
+
+### What is method hiding?
+`Use the new keyword to hide a base class member. We will get a compile warning if we miss the new keyword. This is also used for re-implementing a parent class method under child class. Reimplementing parent class methods under child classes can be done using two different approaches, such as`
+
+`Method overriding`
+`Method hiding`
+`In the first case, we re-implement the parent class methods under child classes with the permission of parent class because here in parent class the method is declared as virtual giving the permission to child classes for overriding the methods.`
+
+`In the 2nd approach, we re-implement the method of parent class even if those methods are not declared as virtual that is without parent permission we are re-implementing the methods. The Syntax is given below.`
+
+`Class1:`
+`Public void display()`
+
+`Class2 : Class1`
+`Public new void display()`
+
+`Using the new keyword for re-implementing the methods in the child class is optional and if used will give information to hiding.`
