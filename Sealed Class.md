@@ -11,4 +11,4 @@
  
 `So when you're designing a class library and want to restrict your classes not to be derived by developers, you may want to use sealed classes.`
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.interviewsansar.com%2Fwhat-is-a-sealed-class-and-a-sealed-method-in-c%2F&psig=AOvVaw3lOQi1moEcCvotWmjt_zso&ust=1593354633331000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOje4NyaouoCFQAAAAAdAAAAABAn" />
+<img alt="What is sealed class and sealed method in C# with example" class="n3VNCb" src="https://www.interviewsansar.com/wp-content/uploads/2015/08/sealed-class-method-csharp-min.png" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd;" style="width: 388px; height: 267px; margin: 0px;">
