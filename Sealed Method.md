@@ -11,4 +11,8 @@
 - We cannot again override the sealed method.
 - Sealed method is only available with Method Overriding.
 - Sealed keyword is not availabe with the method hiding.
+- Sealed is used together with override method.
+- We cannot make normal method as sealed.
+
+
 
