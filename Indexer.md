@@ -19,3 +19,15 @@
  
 **[argument list]**
 `The formal-argument-list specifies the parameters of the indexer.`
+
+### Important points to remember on indexers: 
+- Indexers are always created with this keyword.
+- Parameterized property are called indexer.
+- Indexers are implemented through get and set accessors for the [ ] operator.
+- ref and out parameter modifiers are not permitted in indexer.
+- The formal parameter list of an indexer corresponds to that of a method and at least one parameter should be specified.
+- Indexer is an instance member so can't be static but property can be static.
+- Indexers are used on group of elements.
+- Indexer is identified by its signature where as a property is identified it's name.
+- Indexers are accessed using indexes where as properties are accessed by names.
+- Indexer can be overloaded.
