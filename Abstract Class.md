@@ -1,0 +1,1 @@
+# ABSTRACT CLASS IN C#
