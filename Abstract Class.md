@@ -13,3 +13,12 @@
 - An abstract class can have constructors or destructors.
 - An abstract class cannot be inherited from by structures.
 - An abstract class cannot support multiple inheritance.
+
+
+### Abstract method 
+
+`An Abstract method is a method without a body. The implementation of an abstract method is done by a derived class. When the derived class inherits the abstract method from the abstract class, it must override the abstract method. This requirment is enforced at compile time and is also called dynamic polymorphism.`
+
+`The syntax of using the abstract method is as follows:`
+
+**`<access-modifier>abstract<return-type>method name (parameter)`**
