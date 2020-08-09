@@ -40,3 +40,35 @@
 
 - `How a stack gets created.`
 - `How to display the elements of the stack, and use the Count and Contain methods.`
+
+<img src="https://www.guru99.com/images/c-sharp-net/052616_1306_CCollection5.png" />
+
+<pre>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DemoApplication
+{
+ class Program
+ {
+  static void Main(string[] args)
+  {
+   Stack st = new Stack();
+   st.Push(1);
+   st.Push(2);
+   st.Push(3);
+
+   foreach (Object obj in st)
+   {
+    Console.WriteLine(obj);
+   }
+    Console.WriteLine(); Console.WriteLine();
+    Console.WriteLine("The number of elements in the stack " +st.Count);
+    Console.WriteLine("Does the stack contain the elements 3 "+st.Contains(3));
+    Console.ReadKey();
+  }
+ }
+}</pre>
