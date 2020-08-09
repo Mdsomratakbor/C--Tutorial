@@ -9,3 +9,11 @@
 - `String.Join() method`
 - `String.Format() method`
 - `StringBuilder.Append() method`
+
+**1. Concatenate String Using + Operator**
+`The simplest method of adding two strings in C# is using + or += operators.`
+
+`The following code example in Listing 1 concatenates two strings and a special character.`
+
+<pre>// Simple string concatenation     
+Console.WriteLine("Hello" + " " + "String " + "!");</pre>
