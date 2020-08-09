@@ -15,3 +15,28 @@
 
 **Adding elements to the stack**
 `The push method is used to add an element onto the stack. The general syntax of the statement is given below.`
+<pre>Stack.push(element)</pre>
+
+**Removing elements from the stack**
+`The pop method is used to remove an element from the stack. The pop operation will return the topmost element of the stack. The general syntax of the statement is given below`
+
+<pre> Stack.pop()</pre>
+
+**Count**
+`This property is used to get the number of items in the Stack. Below is the general syntax of this statement.`
+<pre>Stack.Count</pre>
+
+**Contains**
+`This method is used to see if an element is present in the Stack. Below is the general syntax of this statement. The statement will return true if the element exists, else it will return the value false.`
+
+<pre>Stack.Contains(element)</pre>
+
+`Now let's see this working at a code level. All of the below-mentioned code will be written to our Console application. The code will be written to our Program.cs file.`
+
+`In the below program, we will write the code to see how we can use the above-mentioned methods.`
+
+**Example 1**
+`In this example, we will see`
+
+-`How a stack gets created.`
+-`How to display the elements of the stack, and use the Count and Contain methods.`
