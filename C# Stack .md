@@ -38,5 +38,5 @@
 **Example 1**
 `In this example, we will see`
 
--`How a stack gets created.`
--`How to display the elements of the stack, and use the Count and Contain methods.`
+- `How a stack gets created.`
+- `How to display the elements of the stack, and use the Count and Contain methods.`
