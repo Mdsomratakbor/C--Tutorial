@@ -8,3 +8,7 @@
 `Hence in C#, the stack also works in the same way. Elements are added to the stack, one on the top of each other. The process of adding an element to the stack is called a push operation. To remove an element from a stack, you can also remove the top most element of the stack. This operation is known as pop.`
 
 `Let's look at the operations available for the Stack collection in more detail.`
+
+**`Declaration of the stack`**
+**`A stack is created with the help of the Stack Data type. The keyword "new" is used to create an object of a Stack. The object is then assigned to the variable st.`**
+<pre>**Stack st = new Stack()**</pre>
