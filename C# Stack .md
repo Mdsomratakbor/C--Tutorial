@@ -72,3 +72,6 @@ namespace DemoApplication
   }
  }
 }</pre>
+
+**Output**
+<img src="https://www.guru99.com/images/c-sharp-net/052616_1306_CCollection6.png"/>
