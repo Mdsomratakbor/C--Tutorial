@@ -5,5 +5,3 @@
 ### What is main method?
 `Main method is the entry point into you application.`
 
-### Built in data types in C#?
-``
