@@ -12,3 +12,6 @@
 **`Declaration of the stack`**
 **`A stack is created with the help of the Stack Data type. The keyword "new" is used to create an object of a Stack. The object is then assigned to the variable st.`**
 <pre>Stack st = new Stack()</pre>
+
+**Adding elements to the stack**
+`The push method is used to add an element onto the stack. The general syntax of the statement is given below.`
