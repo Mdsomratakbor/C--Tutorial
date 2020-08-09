@@ -30,4 +30,15 @@ string book = "C# Programming";
 string bookAuthor = $"{author} is the author of {book}.";    
 Console.WriteLine(bookAuthor);
 </pre>
+
+**3. Concatenate string using String.Concate method in C#**
+`String.Concate() method concatenates two strings, two objects, and two arrays of strings and combinations of them. `
+
+`The following code example in Listing 3 concats two strings.`
   
+  <pre>
+// String.Concat method    
+string fName = "Mahesh";    
+string lName = "Chand";    
+string Name = string.Concat(fName, lName); 
+  </pre>
