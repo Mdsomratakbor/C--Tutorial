@@ -41,3 +41,8 @@
 `Now, let's see this working at a code level. All of the below-mentioned code will be written to our Console application.`
 
 `The code will be written to our Program.cs file. In the below program, we will write the code to see how we can use the above-mentioned methods.`
+
+**Example**
+`In this example, we will see how a queue gets created. Next, we will see how to display the elements of the queue, and use the Count and Contain methods.`
+
+<img src="https://www.guru99.com/images/c-sharp-net/052616_1306_CCollection9.png"/>
