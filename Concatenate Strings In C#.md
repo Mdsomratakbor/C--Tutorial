@@ -17,3 +17,8 @@
 
 <pre>// Simple string concatenation     
 Console.WriteLine("Hello" + " " + "String " + "!");</pre>
+
+**2. String Interpolation in C#**
+`String interpolation is a method to concatenate variables as a part of a string. Syntax of string interpolation starts with a ‘$’ symbol and code variables are within a bracket {}.`
+
+`The following code example in Listing 2 concatenates strings to create a longer string.`
