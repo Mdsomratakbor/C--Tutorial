@@ -42,3 +42,14 @@ string fName = "Mahesh";
 string lName = "Chand";    
 string Name = string.Concat(fName, lName); 
   </pre>
+**4. Concatenate string using String.Join method**
+`String.Join() method concatenates the elements of an array or the members of a collection, using the specified separator between each element or member. The array or the collection can be any data type including numbers and objects. String.Join method also allows you to concatenate string items of any data types with a range.` 
+
+`The following code example in Listing 7 concatenates an array of int values to a string separated by a comma and space.`
+
+<pre>// Using String.Join(String, String[])    
+int[] intArray = { 1, 3, 5, 7, 9 };    
+String seperator = ", ";    
+string result = "Int, ";    
+result += String.Join(seperator, intArray);    
+Console.WriteLine($"Result: {result}"); </pre>
