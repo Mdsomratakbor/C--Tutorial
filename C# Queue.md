@@ -18,10 +18,26 @@
 
 `The enqueue method is used to add an element onto the queue. The general syntax of the statement is given below.`
 
-<pre>Queue.enqueue(element)<pre>
+<pre>Queue.enqueue(element)</pre>
 
 **Removing elements from the queue**
 
 `The dequeue method is used to remove an element from the queue. The dequeue operation will return the first element of the queue. The general syntax of the statement is given below`
 
 <pre>Queue.dequeue()</pre>
+
+**Count**
+
+`This property is used to get the number of items in the queue. Below is the general syntax of this statement.`
+
+<pre>Queue.Count</pre>
+
+**Contains**
+
+`This method is used to see if an element is present in the Queue. Below is the general syntax of this statement. The statement will return true if the element exists, else it will return the value false.`
+
+<pre>Queue.Contains(element)</pre>
+
+`Now, let's see this working at a code level. All of the below-mentioned code will be written to our Console application.`
+
+`The code will be written to our Program.cs file. In the below program, we will write the code to see how we can use the above-mentioned methods.`
