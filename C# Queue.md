@@ -9,11 +9,19 @@
 `Let's look at the operations available for the Queue collection in more detail.`
 
 **Declaration of the Queue**
+
 `The declaration of a Queue is provided below. A Queue is created with the help of the Queue Data type. The "new" keyword is used to create an object of a Queue. The object is then assigned to the variable qt.`
 
 <pre>Queue qt = new Queue()</pre>
 
 **Adding elements to the Queue**
+
 `The enqueue method is used to add an element onto the queue. The general syntax of the statement is given below.`
 
 <pre>Queue.enqueue(element)<pre>
+
+**Removing elements from the queue**
+
+`The dequeue method is used to remove an element from the queue. The dequeue operation will return the first element of the queue. The general syntax of the statement is given below`
+
+<pre>Queue.dequeue()</pre>
