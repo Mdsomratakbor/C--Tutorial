@@ -35,3 +35,12 @@
 ### 5. Explain different access modifiers in C#?
 
 `These are the keywords that help to define the accessibility of class, member, and data type in the program. These keywords are used to restrict the use of some data manipulation done by other classes. There are 4 types of access modifiers- public, private, protected, and internal. These modifiers define 6 other accessibility levels when working together- public, protected, internal, protected internal, private, and private protected.`
+
+### 6. How can you describe object-oriented concepts in detail?
+
+`C# is an object-oriented programming language that supports 4 OOP concepts.`
+
+- **Encapsulation:** defines the binding together code and the data and keeps it safe from any manipulation done by other programs and classes. It is a container that prevents code and data from being accessed by another program that is defined outside the container.
+- **Abstraction:** this concept of object-oriented protects everything other than the relevant data about any created object in order to increase efficiency and security within the program.
+- **Inheritance:** Inheritance is applied in such a way where one object uses the properties of another object. 
+- **Polymorphism:** is a feature that allows one interface to act as a base class for other classes. This concept is often expressed as a "single interface but multiple actions". 
