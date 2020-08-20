@@ -44,3 +44,11 @@
 - **Abstraction:** this concept of object-oriented protects everything other than the relevant data about any created object in order to increase efficiency and security within the program.
 - **Inheritance:** Inheritance is applied in such a way where one object uses the properties of another object. 
 - **Polymorphism:** is a feature that allows one interface to act as a base class for other classes. This concept is often expressed as a "single interface but multiple actions". 
+
+### 7.  Explain how code gets compiled in C#?
+
+**It takes 4 steps to get a code to get compiled in C#. Below are the steps:**
+- First, compile the source code in the managed code compatible with the C# compiler.
+- Second, combine the above newly created code into assemblies.
+- Third, load the CLR.
+- Last, execute the assembly by CLR to generate the output.
