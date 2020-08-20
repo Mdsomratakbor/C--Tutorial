@@ -75,3 +75,7 @@
 </tr>
 </tbody>
 </table>
+
+### 9. What is the difference between public, static, and void?
+
+`Public declared variables or methods are accessible anywhere in the application. Static declared variables or methods are globally accessible without creating an instance of the class. Static member are by default not globally accessible it depends upon the type of access modified used. The compiler stores the address of the method as the entry point and uses this information to begin execution before any objects are created. And Void is a type modifier that states that the method or variable does not return any value.`
