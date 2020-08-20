@@ -52,3 +52,26 @@
 - Second, combine the above newly created code into assemblies.
 - Third, load the CLR.
 - Last, execute the assembly by CLR to generate the output.
+
+### 8. What is break and continue statements in C#, explain?
+**Below are the differences:**
+<table>
+<tbody>
+<tr>
+<td><strong>Break</strong></td>
+<td><strong>Continue</strong></td>
+</tr>
+<tr>
+<td>You can use break statements in both switch and loop (for, while, and do-while ) statements.</td>
+<td>You can use continue statements only in the loop (for, while, do) statements.</td>
+</tr>
+<tr>
+<td>The switch or loop statements terminate at the moment the break statement is executed and it ends abruptly from there.</td>
+<td>You cannot make a continue statement terminate the loop, it carries on the loop to go to the next iteration level without executing the immediate next step.</td>
+</tr>
+<tr>
+<td>The loop or switch exits immediately from the inner loop when the compiler encounters a break statement and comes out of the inner loop.</td>
+<td>A continue that is placed inside a nested loop within a switch causes the next loop iteration.</td>
+</tr>
+</tbody>
+</table>
