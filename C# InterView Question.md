@@ -112,3 +112,12 @@ finally
 ### 12. Explain in detail the finalize method in C#?
 
 `The finalize () method is defined in the object class which is used for cleanup activities. This method is generally called by the garbage collector whenever the reference of any object is not used for a long time. Garbage collector frees that managed resources automatically but if you want to free the unused resources like filehandle, data connection, etc., then you have to implement the finalize method manually.`
+
+### 13. How you can define the exception handling in C#?
+
+`An exception is a raised problem that may occur during the execution of the program. Handling exceptions offers a simple way to pass the control within the program whenever an exception is raised. C# exceptions are handled by using 4 keywords and those are try, catch, finally, throw.`
+
+**try:** `a raised exception finds a particular block of code to get handled. There is no limit on the number of catch blocks that you will use in your program to handle different types of exception raised.`
+**catch:** `you can handle the raised exception within this catch block. You can mention the steps that you want to do to solve the error or you can ignore the error by suppressing it by the code.`
+**Finally:** `irrespective of the error, if you still want some set of instructions to get displayed then you can use those statements within the finally block and it will display it on the screen.`
+**throw:** `you can throw an exception using the throw statement. It will display the type of error you are getting.`
