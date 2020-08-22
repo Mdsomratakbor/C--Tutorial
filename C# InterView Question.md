@@ -152,3 +152,9 @@ try {
 //code
 }
 </pre>
+
+### 15. A destructor is called automatically:
+
+- when the program finishes its execution.
+- Whenever a scope of the program ends that defines a local variable.
+- Whenever you call the delete operator from your program.
