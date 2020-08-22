@@ -85,7 +85,7 @@
 `The using statement is used to control the usage of one or more resources that are being used within the program. The resources are continuously consumed and released. The main function of this statement is to manage unused resources and release them automatically. Once the object is created which is using the resource and when you are done you make sure that the object’s dispose method is called to release the resources used by that object, this is where using statements works well.`
 
 **For example:**
-<pre style="background:'black'">
+<pre style="background: #c5c5c5;">
 using (MyResource abc = new MyResource())
 {
  abc.program();
