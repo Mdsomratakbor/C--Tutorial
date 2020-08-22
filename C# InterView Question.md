@@ -140,3 +140,15 @@ try {
    // last block of the exception handling
 } 
 </pre>
+
+### 14. Explain the concept of Destructor in detail. Explain it with an example?
+
+`A destructor is a member that works just the opposite of the constructor. Unlike constructors, destructors mainly delete the object. The destructor name must match exactly with the class name just like a constructor. A destructor block always starts with the tilde (~) symbol.`
+
+**Syntax : **
+<pre>
+~class_name()
+{
+//code
+}
+</pre>
