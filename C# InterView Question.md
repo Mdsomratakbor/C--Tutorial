@@ -118,6 +118,25 @@ finally
 `An exception is a raised problem that may occur during the execution of the program. Handling exceptions offers a simple way to pass the control within the program whenever an exception is raised. C# exceptions are handled by using 4 keywords and those are try, catch, finally, throw.`
 
 **try:** `a raised exception finds a particular block of code to get handled. There is no limit on the number of catch blocks that you will use in your program to handle different types of exception raised.`
+
 **catch:** `you can handle the raised exception within this catch block. You can mention the steps that you want to do to solve the error or you can ignore the error by suppressing it by the code.`
+
 **Finally:** `irrespective of the error, if you still want some set of instructions to get displayed then you can use those statements within the finally block and it will display it on the screen.`
+
 **throw:** `you can throw an exception using the throw statement. It will display the type of error you are getting.`
+
+**Syntax :**
+
+<pre>
+try {
+//exception handling starts with try block
+} catch( ExceptionName ea1 ) {
+   // errors are handled within the catch block
+} catch( ExceptionName e2 ) {
+   // more catch block
+} catch( ExceptionName eN ) {
+   // more catch block to handle multiple exception raised
+} finally {
+   // last block of the exception handling
+} 
+</pre>
