@@ -168,7 +168,7 @@ try {
 - By changing the order of parameters passed to a method
 - By using different data types as the passed parameters
 
-**For example: **
+**For example:**
 <pre>
 public class Methodoveloading    
   {    
