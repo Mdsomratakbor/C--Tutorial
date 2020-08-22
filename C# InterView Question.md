@@ -105,3 +105,10 @@ finally
 }
 </pre>
 
+### 11. Describe the C# dispose of the method in detail?
+
+`The disposeof() method releases the unused resources by an object of the class. The unused resources like files, data connections, etc. This method is declared in the interface called IDisposable which is implemented by the class by defining the interface IDisposable body. Dispose method is not called automatically, the programmer has to implement it manually for the efficient usage of the resources.`
+
+### 12. Explain in detail the finalize method in C#?
+
+`The finalize () method is defined in the object class which is used for cleanup activities. This method is generally called by the garbage collector whenever the reference of any object is not used for a long time. Garbage collector frees that managed resources automatically but if you want to free the unused resources like filehandle, data connection, etc., then you have to implement the finalize method manually.`
