@@ -153,8 +153,37 @@ try {
 }
 </pre>
 
-### 15. A destructor is called automatically:
+**A destructor is called automatically:**
 
 - when the program finishes its execution.
 - Whenever a scope of the program ends that defines a local variable.
 - Whenever you call the delete operator from your program.
+
+### 15. Define method overloading with example?
+`Method overloading allows programmers to use multiple methods but with the same name. Every defined method within a program can be differentiated on the basis of the number and the type of method arguments. It is a concept based on polymorphism.`
+
+**Method overloading can be achieved by the following:**
+
+- By changing the number of parameters in the given method
+- By changing the order of parameters passed to a method
+- By using different data types as the passed parameters
+
+**For example: **
+<pre>
+public class Methodoveloading    
+  {    
+    public int sum(int a, int b)  //two int type Parameters method  
+    {    
+        return a + b;    
+            }    
+    public int sum(int a, int b,int c)  //three int type Parameters with same method same as above  
+    {   
+        return a + b+c;    
+    }    
+    public float sum(float a, float b,float c,float d)  //four float type Parameters with same method same as above two method 
+    {    
+        return a + b+c+d;    
+    
+    }    
+  }   
+</pre>
