@@ -187,3 +187,7 @@ public class Methodoveloading
     }    
   }   
 </pre>
+
+### 16. Explain the concept of boxing and unboxing of the value type and object type in C#?
+
+**Boxing-** `is a process of converting a value type to an object type where value type is placed on the stack memory, and the object type is placed in the heap memory. This conversion is an implicit conversion and you can directly assign any value to an object, and C# will handle the rest of the conversion on its own.`
