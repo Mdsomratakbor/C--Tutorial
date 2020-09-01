@@ -213,3 +213,10 @@ Int a=(int)b; //implicit conversion
 Console.WriteLine(a);
 }
 </pre>
+
+### 17. Can multiple catch blocks be executed?
+`No, Multiple catch blocks can't be executed. Once the proper catch code executed, the control is transferred to the finally block, and then the code that follows the finally block gets executed.`
+
+### 18. What is Jagged Arrays?
+
+`The Array which has elements of type array is called jagged Array. The elements can be of different dimensions and sizes. We can also call jagged Array as an Array of arrays.`
