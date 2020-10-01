@@ -300,5 +300,24 @@ Console.WriteLine("Maximum Value: " + max);
 - `ref parameters do not work if you plan to use async/await functionality.`
 - `Not very friendly in terms of reading the code.`
 
+**Output Parameters**
+ 
+`Output parameters also known as “out” parameters and are similar to reference parameters. As the name suggests, they are passed to the function as parameters and the calling method expects some values to be passed back in the parameter from the function. Output parameters are defined in the function signature as –`
+
+<pre>
+public int MultipleReturns(int a, int b, out int max)  
+{  
+ if(a<b)  
+ {  
+     max=a;  
+     return b;  
+ }  
+ else  
+ {  
+     max=b;  
+     return a;  
+ }  
+} 
+</pre>
 
 
