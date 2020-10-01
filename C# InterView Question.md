@@ -292,11 +292,20 @@ int min = MultipleReturns(a,b,ref max);
 Console.WriteLine("Minimum Value: " + min);  
 Console.WriteLine("Maximum Value: " + max); 
 </pre>
+
+
 **Cons of using ref parameters**
 - `ref parameters do not work if you plan to use async/await functionality.`
 - `Not very friendly in terms of reading the code.`
+
+
 **Output Parameters**
+
+
 `Output parameters also known as “out” parameters and are similar to reference parameters. As the name suggests, they are passed to the function as parameters and the calling method expects some values to be passed back in the parameter from the function. Output parameters are defined in the function signature as –`
+
+
+
 <pre>
 public int MultipleReturns(int a, int b, out int max)  
 {  
@@ -312,7 +321,12 @@ public int MultipleReturns(int a, int b, out int max)
  }  
 } 
 </pre>
-In the above snippet we have defined the function signature using 2 integer parameters a & b and an out parameter max. The function returns the minimum value between a & B and also assigns the maximum value to the output parameter. If the function MultipleReturns() does not set any value to max variable inside the body, a compile time error generates. Hence, it is mandatory to assign values to out parameters in the function body. This is also to be noted that you cannot define 2 functions with same signature but having difference of only ref & out parameters, else the compiler will throw an error. You can call the function as below –
+
+
+`In the above snippet we have defined the function signature using 2 integer parameters a & b and an out parameter max. The function returns the minimum value between a & B and also assigns the maximum value to the output parameter. If the function MultipleReturns() does not set any value to max variable inside the body, a compile time error generates. Hence, it is mandatory to assign values to out parameters in the function body. This is also to be noted that you cannot define 2 functions with same signature but having difference of only ref & out parameters, else the compiler will throw an error. You can call the function as below –`
+
+
+
 
 <pre>
 int a=10, b=20,max=0;  
