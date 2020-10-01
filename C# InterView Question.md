@@ -270,7 +270,21 @@ Console.WriteLine(a);
 
 `Reference parameters also known as “ref” parameters are one of the most common and oldest way of returning multiple values from a function. As the name suggests, they are passed as reference to the function and after the function executes, the updated value of the passed reference variable is returned back to the calling method. It is important to note that reference parameters must be defined, initialized and assigned before they are passed to function else you may encounter a compile time error. Reference parameters are defined in the function signature as –`
 
-
+<pre>
+public int MultipleReturns(int a, int b, ref int max)  
+{  
+ if(a<b)  
+ {  
+    max=a;  
+    return b;  
+ }  
+ else  
+ {  
+    max=b;  
+    return a;  
+ }  
+} 
+</pre>
 
 `In the above snippet we have defined the function signature using 2 integer parameters a & b and a ref parameter max. The function returns the minimum value between a & B and also assigns the maximum value to the output parameter. You can call the function as below –`
 
