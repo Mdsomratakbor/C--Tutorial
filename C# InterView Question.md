@@ -226,7 +226,7 @@ Console.WriteLine(a);
 
 - **Unmanaged Code -** `The code, which is developed outside .NET framework is known as unmanaged code. Applications that do not run under the control of the CLR are said to be unmanaged, and certain languages such as C++ can be used to write such applications, which, for example, access low - level functions of the operating system. Background compatibility with the code of VB, ASP and COM are examples of unmanaged code.`
 
-### What is the difference between a struct and a class in C#? 
+### 20. What is the difference between a struct and a class in C#? 
 
 `Class and struct both are the user defined data type but have some major difference:`
 
@@ -247,3 +247,7 @@ Console.WriteLine(a);
 - `A class can be abstract type.`
 - `We can't use an object of a class with using new keyword.`
 - `We can create a default constructor.`
+
+### 21. Why can't you specify the accessibility modifier for methods inside the interface? 
+
+`In an interface, we have virtual methods that do not have method definition. All the methods are there to be overridden in the derived class. That's why they all are public`
