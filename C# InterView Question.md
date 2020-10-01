@@ -295,3 +295,10 @@ Console.WriteLine("Minimum Value: " + min);
 Console.WriteLine("Maximum Value: " + max); 
 </pre>
 
+**Cons of using ref parameters**
+
+- `ref parameters do not work if you plan to use async/await functionality.`
+- `Not very friendly in terms of reading the code.`
+
+
+
