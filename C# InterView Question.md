@@ -225,3 +225,25 @@ Console.WriteLine(a);
 - **Managed Code -** `The code, which is developed in .NET framework is known as managed code. This code is directly executed by CLR with the help of managed code execution. Any language that is written in .NET Framework is managed code.`
 
 - **Unmanaged Code -** `The code, which is developed outside .NET framework is known as unmanaged code. Applications that do not run under the control of the CLR are said to be unmanaged, and certain languages such as C++ can be used to write such applications, which, for example, access low - level functions of the operating system. Background compatibility with the code of VB, ASP and COM are examples of unmanaged code.`
+
+### What is the difference between a struct and a class in C#? 
+
+`Class and struct both are the user defined data type but have some major difference:`
+
+**Struct :**
+
+- `The struct is value type in C# and it inherits from System.Value Type.`
+- `Struct is usually used for smaller amounts of data.`
+- `Struct can't be inherited to other type.`
+- `A structure can't be abstract.`
+- `No need to create object by new keyword.`
+- `Do not have permission to create any default constructo.`
+
+**Class :**
+
+- `The class is reference type in C# and it inherits from the System.Object Type.`
+- `Classes are usually used for large amounts of data.`
+- `Classes can be inherited to other class.`
+- `A class can be abstract type.`
+- `We can't use an object of a class with using new keyword.`
+- `We can create a default constructor.`
