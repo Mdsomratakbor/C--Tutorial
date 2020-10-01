@@ -250,4 +250,48 @@ Console.WriteLine(a);
 
 ### 21. Why can't you specify the accessibility modifier for methods inside the interface? 
 
-`In an interface, we have virtual methods that do not have method definition. All the methods are there to be overridden in the derived class. That's why they all are public`
+`In an interface, we have virtual methods that do not have method definition. All the methods are there to be overridden in the derived class. That's why they all are public.`
+
+### 22. Can you return multiple values from a function in C#? 
+
+`Yes! Using output parameters. A return statement can be used for returning only one value from a function. However, using output parameters, you can return two values from a function.`
+
+### 23. How to Return Multiple Values From a Function in C#?
+
+**We can return multiple values from a function using the following 3 approaches:**
+
+- `Reference parameters`
+- `Output parameters`
+- `Returning an Array`
+- `Returning an object of class/struct type`
+- `Returning a Tuple`
+
+**Reference parameters :**
+
+`Reference parameters also known as “ref” parameters are one of the most common and oldest way of returning multiple values from a function. As the name suggests, they are passed as reference to the function and after the function executes, the updated value of the passed reference variable is returned back to the calling method. It is important to note that reference parameters must be defined, initialized and assigned before they are passed to function else you may encounter a compile time error. Reference parameters are defined in the function signature as –`
+
+<pre>
+public int MultipleReturns(int a, int b, ref int max)  
+{  
+ if(a<b)  
+ {  
+    max=a;  
+    return b;  
+ }  
+ else  
+ {  
+    max=b;  
+    return a;  
+ }  
+} 
+</pre>
+
+`In the above snippet we have defined the function signature using 2 integer parameters a & b and a ref parameter max. The function returns the minimum value between a & B and also assigns the maximum value to the output parameter. You can call the function as below –`
+
+<pre>
+int a=10, b=20,max=0;  
+int min = MultipleReturns(a,b,ref max);  
+Console.WriteLine("Minimum Value: " + min);  
+Console.WriteLine("Maximum Value: " + max); 
+</pre>
+
