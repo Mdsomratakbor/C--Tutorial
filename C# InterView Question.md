@@ -354,3 +354,7 @@ Console.WriteLine("Maximum Value: " + max);
 - `In an abstract class we need to use abstract keyword to declare abstract methods while in an interface we don't need to use that.`
 - `An abstract class can't be used for multiple inheritance while interface can be used as multiple inheritance.`
 - `An abstract class use constructor while in an interface we don't have any type of constructor.`
+
+### 27: Can we have only “try” block without “catch” block in C#?
+
+`Yes we can have only try block without catch block but we have to have finally block.`
