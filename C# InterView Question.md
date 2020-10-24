@@ -337,3 +337,7 @@ Console.WriteLine("Maximum Value: " + max);
 ### 24: What is lambda expressions in C#?
 
 `A lambda expression is an anonymous function that you can use to create delegates or expression tree types. By using lambda expressions, you can write local functions that can be passed as arguments or returned as the value of function calls. Lambda expressions are particularly helpful for writing LINQ query expressions.`
+
+### 25: What is difference between constants and readonly?
+
+`Constant variables are declared and initialized at compile time. The value can't be changed afterwards. Readonly is used only when we want to assign the value at run time.`
