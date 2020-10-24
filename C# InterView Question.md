@@ -341,3 +341,16 @@ Console.WriteLine("Maximum Value: " + max);
 ### 25: What is difference between constants and readonly?
 
 `Constant variables are declared and initialized at compile time. The value can't be changed afterwards. Readonly is used only when we want to assign the value at run time.`
+
+
+### 26: What is the difference between Interface and Abstract Class?
+
+**There are some differences between Abstract Class and Interface which are listed below:**
+
+- `A class can implement any number of interfaces but a subclass can at most use only one abstract class.`
+- `An abstract class can have non-abstract methods (concrete methods) while in case of interface all the methods has to be abstract.`
+- `An abstract class can declare or use any variables while an interface is not allowed to do so.`
+- `In an abstract class all data member or functions are private by default while in interface all are public, we can't change them manually.`
+- `In an abstract class we need to use abstract keyword to declare abstract methods while in an interface we don't need to use that.`
+- `An abstract class can't be used for multiple inheritance while interface can be used as multiple inheritance.`
+- `An abstract class use constructor while in an interface we don't have any type of constructor.`
