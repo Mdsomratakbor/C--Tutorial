@@ -373,3 +373,7 @@ IEnumerable
 - `In Compile time polymorphism or Early Binding we will use multiple methods with same name but different type of parameter or may be the number or parameter because of this we can perform different-different tasks with same method name in the same class which is also known as Method overloading.`
 
 - `Run time polymorphism also known as late binding, in Run Time polymorphism or Late Binding we can do use same method names with same signatures means same type or same number of parameters but not in same class because compiler doesn't allowed that at compile time so we can use in derived class that bind at run time when a child class or derived class object will instantiated that's way we says that Late Binding also known as Method overriding.`
+
+### 31: What is marshalling and why do we need it?
+
+`Because different languages and environments have different calling conventions, different layout conventions, different sizes of primitives (cf. char in C# and char in C), different object creation/destruction conventions, and different design guidelines. You need a way to get the stuff out of managed land an into somewhere where unmanaged land can see and understand it and vice versa. That's what marshalling is for.`
