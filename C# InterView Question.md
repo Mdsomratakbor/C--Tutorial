@@ -377,3 +377,7 @@ IEnumerable
 ### 31: What is marshalling and why do we need it?
 
 `Because different languages and environments have different calling conventions, different layout conventions, different sizes of primitives (cf. char in C# and char in C), different object creation/destruction conventions, and different design guidelines. You need a way to get the stuff out of managed land an into somewhere where unmanaged land can see and understand it and vice versa. That's what marshalling is for.`
+
+### 32: What is the use of conditional preprocessor directive in C#?
+
+`You can use the #if directive to create a conditional directive. Conditional directives are useful for testing a symbol or symbols to check if they evaluate to true. If they do evaluate to true, the compiler evaluates all the code between the #if and the next directive.`
