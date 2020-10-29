@@ -363,3 +363,7 @@ Console.WriteLine("Maximum Value: " + max);
 <pre>
 IEnumerable
 </pre>
+
+### 29: What are pointer types in C#?
+
+**Pointer type** `variables store the memory address of another type. Pointers in C# have the same capabilities as the pointers in C or C++.`
