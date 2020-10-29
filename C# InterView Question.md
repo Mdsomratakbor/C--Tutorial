@@ -358,3 +358,8 @@ Console.WriteLine("Maximum Value: " + max);
 ### 27: Can we have only “try” block without “catch” block in C#?
 
 `Yes we can have only try block without catch block but we have to have finally block.`
+
+### 28: What interface should your data structure implement to make the "Where" method work?
+<pre>
+IEnumerable
+</pre>
