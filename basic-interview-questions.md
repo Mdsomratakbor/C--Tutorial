@@ -319,3 +319,385 @@ Converting an object into a format for storage or transmission.
 
 **100. Use of `using` statement:**  
 Manages resources like file streams or database connections, ensuring proper disposal.
+
+I'll explain these questions briefly one by one. Let me know if you'd like more detail on any specific topic!
+
+---
+
+### 101. **What is a jagged array in C#?**
+   - A jagged array is an array of arrays, where each array inside can have a different size. Example: `int[][] jaggedArray = new int[3][];`
+
+### 102. **What is multithreading with .NET?**
+   - Multithreading allows multiple threads to execute concurrently, improving application performance. .NET provides classes like `Thread`, `Task`, and `Parallel` for managing threads.
+
+### 103. **Explain anonymous type in C#.**
+   - Anonymous types allow you to create objects without defining a class. They are typically used with LINQ: `var person = new { Name = "John", Age = 25 };`
+
+### 104. **Explain Hashtable in C#.**
+   - A Hashtable stores key-value pairs and uses hashing to retrieve data quickly. It is part of `System.Collections`.
+
+### 105. **What is LINQ in C#?**
+   - LINQ (Language Integrated Query) provides a way to query collections (like arrays, databases) using syntax similar to SQL. Example: `var result = numbers.Where(n => n > 10);`
+
+### 106. **What is file handling in C#.NET?**
+   - File handling involves reading, writing, and managing files using classes like `File`, `StreamReader`, and `StreamWriter` in `System.IO`.
+
+### 107. **What is reflection in C#.NET?**
+   - Reflection allows code to inspect and interact with metadata about assemblies, modules, and types at runtime. It's used with `System.Reflection`.
+
+### 108. **What are expression trees in C#?**
+   - Expression trees represent code as data and can be compiled into executable code. They are used in LINQ to SQL and dynamic queries.
+
+### 109. **Differences between object, var, and dynamic types:**
+   - **Object:** Base type for all types; requires casting.
+   - **Var:** Implicitly typed local variable; resolved at compile time.
+   - **Dynamic:** Type resolved at runtime; no compile-time checking.
+
+### 110. **What are OOP concepts?**
+   - Core concepts: Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+### 111. **How can you implement multiple inheritance in C#?**
+   - C# doesn’t support multiple class inheritance but allows multiple interface inheritance.
+
+### 112. **Are private class members inherited by derived classes?**
+   - Yes, but they are not accessible directly from derived classes.
+
+### 113. **When and why to use method overloading:**
+   - Use overloading to create multiple methods with the same name but different parameters for code readability and flexibility.
+
+### 114. **Does C# support multiple inheritance?**
+   - No, C# doesn’t support multiple inheritance for classes but supports multiple interfaces.
+
+### 115. **Where is a protected class-level variable available?**
+   - Accessible within the class and its derived classes.
+
+### 116. **Are private class-level variables inherited?**
+   - Yes, but they are not accessible from the derived class.
+
+### 117. **Describe the `protected internal` accessibility modifier:**
+   - Accessible within its assembly and by derived classes in other assemblies.
+
+### 118. **Which class is at the top of the .NET class hierarchy?**
+   - `System.Object`
+
+### 119. **What does immutable mean?**
+   - Immutable objects cannot be changed after creation (e.g., `string` in C#).
+
+### 120. **Can you store multiple data types in `System.Array`?**
+   - No, an array is strongly typed. Use `ArrayList` or `List<object>` for mixed types.
+
+### 121. **Difference between `System.Array.CopyTo()` and `Clone()`:**
+   - **CopyTo:** Copies elements to another array.
+   - **Clone:** Creates a shallow copy of the array.
+
+### 122. **How to sort array elements in descending order:**
+   - Use `Array.Sort()` and `Array.Reverse()`:  
+     ```csharp
+     Array.Sort(arr);
+     Array.Reverse(arr);
+     ```
+
+### 123. **Collection class with key-based access:**
+   - `Dictionary<TKey, TValue>`
+
+### 124. **Class underneath `SortedList`:**
+   - `Hashtable` and `ArrayList`.
+
+### 125. **Will `finally` block execute if no exception occurs?**
+   - Yes, the `finally` block always executes.
+
+### 126. **Syntax to catch any exception:**
+   ```csharp
+   try { }
+   catch (Exception ex) { }
+   ```
+
+### 127. **Can multiple catch blocks execute for a single try?**
+   - No, only the first matching catch block executes.
+
+### 128. **Explain three-tier architecture:**
+   - Layers: 
+     - **Presentation:** UI logic.
+     - **Business Logic:** Core functionality.
+     - **Data Access:** Database interactions.
+
+### 129. **Syntax to inherit a class:**
+   ```csharp
+   class Derived : Base { }
+   ```
+
+### 130. **Preventing class inheritance:**
+   - Use the `sealed` keyword.
+
+### 131. **Allow class inheritance but prevent method overriding:**
+   - Mark the method as `sealed`:
+   ```csharp
+   public sealed override void Method() { }
+   ```
+
+### 132. **When to declare a class as abstract:**
+   - When it’s a base class with incomplete implementations.
+
+### 133. **Accessibility modifiers in interfaces:**
+   - Not allowed because all interface members are implicitly `public`.
+
+### 134. **Inheriting multiple interfaces:**
+   - Yes, C# supports multiple interface inheritance:
+   ```csharp
+   class MyClass : IInterface1, IInterface2 { }
+   ```
+
+### 135. **Conflicting method names in multiple interfaces:**
+   - Implement explicitly:
+   ```csharp
+   void IInterface1.Method() { }
+   void IInterface2.Method() { }
+   ```
+
+### 136. **Implicit parameter name in a property `set`:**
+   - `value`
+
+### 137. **Can `override` methods be static?**
+   - No, `override` methods must match the original method’s static or instance context.
+
+### 138. **Different ways to overload methods:**
+   - Varying number, type, or order of parameters.
+
+### 139. **Enforcing base constructor call:**
+   ```csharp
+   public Derived() : base(param) { }
+   ```
+
+### 140. **Implicit name of the `set` parameter:**
+   - `value`, representing the assigned value in the setter.
+
+Here's a detailed explanation for each of your questions:
+
+---
+
+### **Inheritance and Access Control in C#**
+
+**141. How do you inherit from a class in C#?**  
+You use the colon `:` syntax.  
+```csharp
+class BaseClass { }
+class DerivedClass : BaseClass { }
+```
+
+**142. Does C# support multiple inheritance?**  
+No, C# does not support multiple inheritance for classes directly. However, it supports multiple interfaces, allowing a class to implement more than one interface.
+
+**143. When you inherit a protected class-level variable, who is it available to?**  
+Protected variables are available to the derived class and any further subclasses but not outside the inheritance hierarchy.
+
+**144. Are private class-level variables inherited?**  
+Private variables are inherited but are not directly accessible by the derived class. They can only be accessed within the class where they are declared.
+
+**145. Describe the accessibility modifier `protected internal`.**  
+`protected internal` makes a member accessible within the same assembly (`internal`) and by derived classes (`protected`), even if those derived classes are in another assembly.
+
+---
+
+### **Constructors and Inheritance**
+
+**146. How many constructors should I write if I want both parameterless and parameterized constructors?**  
+You should explicitly write two constructors:  
+```csharp
+public MyClass() { }  // Default constructor  
+public MyClass(string param) { }  // Parameterized constructor  
+```
+
+**147. What’s the top .NET class that everything is derived from?**  
+`System.Object` is the base class from which all .NET types inherit.
+
+---
+
+### **Method Modifiers and Overriding**
+
+**148. What does the keyword `virtual` mean in a method definition?**  
+`virtual` means the method can be overridden in a derived class. It provides polymorphism.  
+```csharp
+public virtual void Display() { }
+```
+
+**149. Can you declare the override method static while the original method is non-static?**  
+No, the `override` method must have the same signature as the base method, including static/non-static status.
+
+**150. Can you override private virtual methods?**  
+No, private methods cannot be accessed by derived classes, so they cannot be overridden.
+
+---
+
+### **Abstract Classes and Interfaces**
+
+**151. When do you absolutely have to declare a class as abstract?**  
+When it includes abstract methods (methods without implementation) or if you want to prevent direct instantiation of the class. Abstract classes provide a template for derived classes.
+
+**152. Why can’t you specify the accessibility modifier for methods inside an interface?**  
+Interface methods are implicitly public and abstract. Specifying an accessibility modifier would contradict the purpose of interfaces.
+
+**153. What if two interfaces have conflicting method names?**  
+You can implement explicit interface methods to resolve conflicts.  
+```csharp
+interface IA { void Display(); }
+interface IB { void Display(); }
+
+class MyClass : IA, IB {
+    void IA.Display() { /* IA version */ }
+    void IB.Display() { /* IB version */ }
+}
+```
+
+---
+
+### **Constructors in Inheritance**
+
+**154. Can an inherited class constructor call an arbitrary base constructor?**  
+Yes, by using the `base` keyword.  
+```csharp
+public Derived(int x) : base(x) { }
+```
+
+---
+
+### **Namespaces, Data Types, and Utility Methods**
+
+**155. Is it `namespace class` or `class namespace`?**  
+It is `namespace class`. You define classes inside a namespace.
+
+**156. Difference between `ToString()` and `Convert.ToString()`?**  
+- `ToString()` can throw a `NullReferenceException` if the object is null.  
+- `Convert.ToString()` returns an empty string for null objects.
+
+**157. Difference between `int.Parse()` and `Convert.ToInt32()`?**  
+- `int.Parse()` throws an exception for null input.  
+- `Convert.ToInt32()` returns 0 for null input.
+
+---
+
+### **Checked and Unchecked Blocks**
+
+**158. What is a checked block and unchecked block?**  
+- `checked` ensures that overflow exceptions are thrown.  
+- `unchecked` ignores overflow exceptions.
+
+---
+
+### **Data Type and Memory**
+
+**159. Program to get the range of `Byte` datatype:**  
+```csharp
+Console.WriteLine($"Range: {byte.MinValue} to {byte.MaxValue}");
+```
+
+**160. Difference between `typeof()` and `sizeof()`?**  
+- `typeof()` returns the `Type` object.  
+- `sizeof()` returns the size in bytes of a value type.
+
+---
+
+### **Type Casting**
+
+**161. What is widening and narrowing?**  
+- Widening: Converting a smaller type to a larger type (e.g., `int` to `long`).  
+- Narrowing: Converting a larger type to a smaller type, which may cause data loss (e.g., `double` to `int`).
+
+---
+
+### **Assemblies and Reflection**
+
+**162. How to view an Assembly?**  
+Use tools like ILDASM or Reflector.
+
+**163. How to implement Reflection in .NET?**  
+```csharp
+Assembly asm = Assembly.GetExecutingAssembly();
+Type t = asm.GetType("MyNamespace.MyClass");
+```
+
+---
+
+### **Multilingual Applications and Comparisons**
+
+**164. What are multilingual applications?**  
+Applications that support multiple languages by using resource files and localization techniques.
+
+**165. Difference between `=` and `==`:**  
+- `=` is an assignment operator.  
+- `==` is a comparison operator.
+
+---
+
+### **Collections and Constructors**
+
+**166. What is the use of code snippets?**  
+They speed up coding by inserting commonly used code structures.
+
+**167. Difference between Arrays and Collections?**  
+Arrays have fixed size, while collections (like `List`) are dynamic.
+
+**168. Default access modifier for class members?**  
+`private`.
+
+---
+
+### **Static and Default Constructors**
+
+**169. Use of a constructor?**  
+Initializes an object’s state.
+
+**170. When is the static constructor called?**  
+Before any instance or static members are accessed.
+
+**171. Can static constructors be public?**  
+No, static constructors cannot have access modifiers.
+
+**172. Main() vs static constructor execution:**  
+Static constructors run before `Main()`.
+
+---
+
+### **Accessing Constructors**
+
+**173. Call default constructor from a parameterized one:**  
+```csharp
+public MyClass() : this("default") { }
+```
+
+**174. Accessing constructors from another class:**  
+Use the `new` keyword:  
+```csharp
+var obj = new AnotherClass();
+```
+
+---
+
+### **Multiple Inheritance and Polymorphism**
+
+**175. Does C# support multiple inheritance?**  
+No, only multiple interfaces.
+
+**176. How to achieve multiple inheritance?**  
+Implement multiple interfaces.
+
+---
+
+### **Overloading and Overriding**
+
+**177. Overloading:**  
+Same method name, different parameters.
+
+**178. Overriding:**  
+Replacing a base class method with a derived class method.
+
+---
+
+### **Properties and Events**
+
+**179. Use of properties:**  
+Encapsulate field access, provide validation logic.
+
+**180. Difference between event and method:**  
+- **Method:** Contains executable code.  
+- **Event:** Notifies subscribers when something occurs (delegates).
+
