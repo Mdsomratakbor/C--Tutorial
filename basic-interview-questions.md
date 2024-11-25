@@ -148,3 +148,174 @@ A data type defines the type of data a variable can hold. .NET has several data 
 
 **50. Mention the two major categories that distinctly classify the variables of C# programs.**  
 Value types (store data directly) and reference types (store references to data).
+Here’s a concise answer to each question:
+
+---
+
+**51. Which statement is used to replace multiple if-else statements in code?**  
+The `switch` statement.
+
+**52. What is the syntax to declare a namespace in .NET?**  
+```csharp
+namespace NamespaceName
+{
+    // code
+}
+```
+
+**53. Differentiate between the while and for loop in C#.**  
+- `for` loop: Used when the number of iterations is known.  
+- `while` loop: Used when the condition is evaluated before each iteration.
+
+**54. What is an identifier?**  
+An identifier is the name of a variable, method, class, or other elements in code.
+
+**55. What does a break statement do in a switch statement?**  
+It exits the switch block, preventing fall-through to other cases.
+
+**56. Explain keywords with examples.**  
+Keywords are reserved words in C# (e.g., `int`, `class`, `if`) with special meanings.
+
+**57. Characteristics of value-type variables in C#:**  
+Stored directly in memory, contain their data, and include primitives like `int` and `bool`.
+
+**58. What is a parameter? New types in C# 4.0:**  
+A parameter is an input value for a method. New types: `optional` and `named` parameters.
+
+**59. Characteristics of reference-type variables:**  
+Store references to objects; data resides on the heap. Includes `class` and `string`.
+
+**60. Different types of literals:**  
+Numeric, character, string, and boolean literals.
+
+**61. Difference between sub-procedure and function:**  
+Functions return values; sub-procedures do not.
+
+**62. Boxing vs. Unboxing:**  
+- Boxing: Converting value type to object type.  
+- Unboxing: Extracting value type from an object.
+
+**63. What is C#?**  
+C# is a modern, object-oriented programming language developed by Microsoft.
+
+**64. What is an Object?**  
+An object is an instance of a class containing data and behavior.
+
+**65. Difference between struct and class:**  
+Structs are value types; classes are reference types.
+
+**66. Difference between Interface and Abstract Class:**  
+- Interface: No implementation; multiple inheritance.  
+- Abstract Class: Can have implementation; single inheritance.
+
+**67. What is enum in C#?**  
+An `enum` is a user-defined type representing named constants.
+
+**68. Difference between “continue” and “break”:**  
+- `break`: Exits the loop.  
+- `continue`: Skips to the next iteration.
+
+**69. Difference between constant and readonly:**  
+- `const`: Value set at compile-time.  
+- `readonly`: Value set at runtime.
+
+**70. Difference between `ref` and `out`:**  
+Both pass by reference. `ref` requires initialization, `out` does not.
+
+**71. Can “this” be used within a static method?**  
+No, `this` refers to an instance of the class.
+
+**72. Define Property:**  
+A property is a class member that encapsulates a field, with `get` and `set` accessors.
+
+**73. What is an extension method?**  
+Adds methods to existing types without modifying them.
+
+**74. Difference between string and StringBuilder:**  
+- `string`: Immutable.  
+- `StringBuilder`: Mutable and efficient for string manipulation.
+
+**75. What are delegates? Uses:**  
+Delegates are references to methods. They allow callback methods and event handling.
+
+**76. What is a sealed class?**  
+A class that cannot be inherited.
+
+**77. What are partial classes?**  
+A class definition split across multiple files.
+
+**78. What is IEnumerable<>?**  
+An interface for collections that can be iterated over.
+
+**79. Difference between late and early binding:**  
+- Early binding: Compile-time type check.  
+- Late binding: Runtime type resolution.
+
+**80. Differences between IEnumerable and IQueryable:**  
+`IEnumerable`: In-memory operations. `IQueryable`: Query execution at the database level.
+
+**81. What happens if inherited interfaces have conflicting methods?**  
+The class must implement each interface's method explicitly.
+
+**82. What are Arrays in C#.Net?**  
+Arrays store fixed-size sequences of elements of the same type.
+
+**83. What is Constructor Chaining?**  
+One constructor calls another within the same class.
+
+**84. Difference between `Array.CopyTo()` and `Array.Clone()`:**  
+- `CopyTo()`: Copies elements into another array.  
+- `Clone()`: Creates a shallow copy of the array.
+
+**85. Can multiple catch blocks execute?**  
+No, only the first matching `catch` block executes.
+
+**86. Difference between Throw Exception and Throw Clause:**  
+- `throw`: Retains stack trace.  
+- `throw ex`: Resets the stack trace.
+
+**87. What is an Indexer?**  
+An indexer allows objects to be accessed like arrays.
+
+**88. What is a multicast delegate?**  
+A delegate that references multiple methods.
+
+**89. Difference between `==` and `Equals()`:**  
+- `==`: Compares values or references.  
+- `Equals()`: Compares content of objects.
+
+**90. Difference between `is` and `as`:**  
+- `is`: Checks type compatibility.  
+- `as`: Casts an object, returns `null` if invalid.
+
+**91. How to use Nullable<> Types:**  
+`Nullable<int>` or `int?` for values that can be `null`.
+
+**92. Ways of method overloading:**  
+By changing the number, type, or order of parameters.
+
+**93. What is an Object Pool?**  
+Manages a collection of reusable objects to optimize resource usage.
+
+**94. What are generics?**  
+Enable type-safe, reusable code (e.g., `List<T>`).
+
+**95. Accessibility modifiers:**  
+`public`, `private`, `protected`, `internal`, `protected internal`.
+
+**96. What is a Virtual Method?**  
+A method that can be overridden in a derived class.
+
+**97. Difference between Array and ArrayList:**  
+- `Array`: Fixed size.  
+- `ArrayList`: Dynamic size, stores objects.
+
+**98. Value types vs. Reference types:**  
+- Value types: Store data directly.  
+- Reference types: Store references to data.
+
+**99. What is Serialization?**  
+Converting an object into a format for storage or transmission.
+
+**100. Use of `using` statement:**  
+Manages resources like file streams or database connections, ensuring proper disposal.
